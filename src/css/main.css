@@ -1,0 +1,246 @@
+input {
+    width: 100%;
+}
+
+content > *:first-child {
+    margin: .4rem .5rem;
+}
+
+.cont-search, .con-list > *, .border-item, .international > * {
+    border: 1px solid rgba(198, 198, 198, 0.5);
+    border-radius: .2rem;
+}
+
+.cont-search > * {
+    padding: .4rem;
+}
+
+.cont-search > *:first-child {
+    flex-basis: 75%;
+    -webkit-flex-basis: 75%;
+    font-size: .625rem;
+}
+
+.cont-search > *:last-child {
+    letter-spacing: .2rem;
+    flex-basis: 25%;
+    -webkit-flex-basis: 25%;
+    background-color: #efefef;
+    border-left: 1px solid rgba(198, 198, 198, 0.5);
+    font-size: .7rem;
+}
+
+.icon-search:before {
+    font-size: .8rem;
+}
+
+.cont-naw {
+    font-size: .5rem;
+    color: white;
+    line-height: 1.25rem;
+    background-color: #41436b;
+}
+
+.con-list {
+    display: none;
+    font-size: 0;
+    margin: .3rem .1rem;
+    /* text-align: center;*/
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.con-list > * {
+    display: inline-block;
+    font-size: .5rem;
+    width: 23%;
+    line-height: 1.25rem;
+    text-align: center;
+    margin: 1%;
+    padding: 0 .1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*国际赛事赛事资料库*/
+
+.international > * {
+    font-size: .625rem;
+    line-height: 1.75rem;
+    margin-bottom: .4rem;
+    color: #517fe1;
+    padding-left: .2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-shadow: #517fe1 0 0 .4px .2px;
+}
+/*.international>*>*{
+    text-align: right;
+}*/
+
+/*分组赛*/
+.match-item {
+    display: inline-block;
+    width: 47.3%;
+    float: right;
+    text-align: right;
+}
+
+.match-item > *:not(:first-child),.table-match>* {
+    color: black;
+    width: 60%;
+    font-size: .6rem;
+    border-radius: .2rem;
+}
+.table-match_1>*{
+    width: 25% !important;
+}
+.table-match>*{
+    font-size: .6rem;
+}
+.table-match{
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.classification {
+    font-size: .575rem;
+    padding: .2rem .5rem;
+    margin: 0 !important;
+    background-color: #1f479c;
+}
+
+.classification > *:first-child {
+    width: 20%;
+    border-radius: .2rem;
+}
+
+.classification > *:last-child > * {
+    display: inline-block;
+    padding: .2rem .4rem;
+    border-radius: .2rem;
+}
+
+.blue {
+    color: white;
+    background-color: #3a71e7;
+}
+
+.yellow {
+    background-color: #fff339;
+}
+
+#race-sult > *:first-child {
+    margin-right: .2rem;
+}
+
+.raceResult,.proportion>* {
+    display: none;
+}
+
+option {
+    background-color: white;
+}
+
+table {
+    table-layout: fixed;
+    width: 98%;
+    margin: .4rem auto;
+    font-size: .575rem;
+    text-align: center;
+}
+
+table > *:first-child {
+    line-height: 1.5rem;
+    margin-top: .2rem;
+}
+
+thead > * {
+    background-color: #517fe1;
+    line-height: 1rem;
+    color: white;
+}
+
+.thead-ellipsis {
+    width: 20%;
+}
+
+.thead-ball {
+    width: 30%;
+}
+
+tbody > *, tfoot {
+    width: 100%;
+    line-height: 1.5rem;
+    border-bottom: 1px solid rgba(210, 210, 210, 0.5);
+}
+
+tfoot {
+
+}
+
+.ranking {
+    text-align: left;
+    margin-left: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.ranking > * {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+}
+
+.ranking > *:before {
+    content: '';
+    width: .3rem;
+    height: .6rem;
+    position: absolute;
+    top: 35%;
+    left: -.6rem;
+    background-color: black;
+}
+
+.orange:before {
+    background-color: #ff9966;
+}
+
+.green:before {
+    background-color: #a2e76f;
+}
+
+.blue-smail:before {
+    background-color: #00ccff;
+}
+
+.gray:before {
+    background-color: #b1a7a7;
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+tbody > * > *:first-child > * {
+    line-height: 1rem;
+}
+
+.td-red {
+    color: #fe9591;
+}
+
+.td-blue {
+    color: #497cff;
+}
+
+.must {
+    margin: 0 !important;
+}

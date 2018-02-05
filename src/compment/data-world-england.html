@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>足球资料库</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../dist/index.js"></script>
+</head>
+<body>
+<header>
+    <span class="pull-left icon icon-left"></span>
+    <div class="title text-left">世界杯欧洲区预选赛
+        <div class="match-item">
+            <span>赛季</span>
+            <select>
+                <option>2014-2015</option>
+                <option>2015-2016</option>
+                <option>2019-2020</option>
+            </select>
+        </div>
+    </div>
+</header>
+<content>
+    <div class="must"></div>
+    <div class="flex-box col-2 text-center cont-naw" id="proportion-nav">
+        <div class="active">积分</div>
+        <div>赛程</div>
+        <div>让球</div>
+        <div>大小</div>
+        <div>射手榜</div>
+    </div>
+    <div id="proportion" class="proportion">
+        <!--积分-->
+        <div class="active-block">
+            <table>
+                <thead>
+                <tr>
+                    <th>排名</th>
+                    <th class="thead-ball">球队</th>
+                    <th>赛</th>
+                    <th>胜</th>
+                    <th>平</th>
+                    <th>负</th>
+                    <th>得</th>
+                    <th>失</th>
+                    <th>积</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">斯特城</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">曼切斯</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">特城</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>备注:</th>
+                    <td colspan="8">
+                        <p class="ranking">
+                            <span class="orange">欧冠杯小组赛资格</span>
+                            <span class="green">冠杯小组资格</span>
+                        </p>
+                        <p class="ranking">
+                            <span class="blue-smail">组赛资格</span>
+                            <span class="gray">欧冠杯小组赛</span>
+                        </p>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!--赛程-->
+        <div>
+            <div class="table-match table-match_1">
+                <select>
+                    <option>第35轮</option>
+                    <option>第36轮</option>
+                    <option>第38轮</option>
+                    <option>第39轮</option>
+                </select>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>时间</th>
+                        <th>状态</th>
+                        <th class="thead-ellipsis">主队</th>
+                        <th>比分</th>
+                        <th class="thead-ellipsis">客队</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><p>06-14</p>
+                            <p>23:00</p></td>
+                        <td class="td-red">完场</td>
+                        <td class="ellipsis">额诺斯</td>
+                        <td><span class="td-red">4:1</span><span class="td-blue">(3:1)</span></td>
+                        <td class="ellipsis">沙特忘啦博</td>
+                    </tr>
+                    <tr>
+                        <td><p>06-20</p>
+                            <p>12:00</p></td>
+                        <td class="td-red">完场</td>
+                        <td class="ellipsis">埃及</td>
+                        <td><span class="td-red">4:1</span><span class="td-blue">(3:1)</span></td>
+                        <td class="ellipsis">乌拉克</td>
+                    </tr>
+                    <tr>
+                        <td><p>06-14</p>
+                            <p>23:00</p></td>
+                        <td class="td-red">完场</td>
+                        <td class="ellipsis">额诺斯</td>
+                        <td><span class="td-red">4:1</span><span class="td-blue">(3:1)</span></td>
+                        <td class="ellipsis">沙特忘啦博沙特忘啦博</td>
+                    </tr>
+                    <tr>
+                        <td><p>06-20</p>
+                            <p>12:00</p></td>
+                        <td class="td-red">完场</td>
+                        <td class="ellipsis">埃及</td>
+                        <td><span class="td-red">4:1</span><span class="td-blue">(3:1)</span></td>
+                        <td class="ellipsis">乌拉克</td>
+                    </tr>
+                    <tr>
+                        <td><p>06-20</p>
+                            <p>12:00</p></td>
+                        <td>未开</td>
+                        <td class="ellipsis">沙特阿拉伯</td>
+                        <td>VS</td>
+                        <td class="ellipsis">乌拉克</td>
+                    </tr>
+                    <tr>
+                        <td><p>06-20</p>
+                            <p>12:00</p></td>
+                        <td>未开</td>
+                        <td class="ellipsis">俄罗斯</td>
+                        <td>VS</td>
+                        <td class="ellipsis">埃及</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--让球-->
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th class="thead-ball">球队</th>
+                    <th>赛</th>
+                    <th>上</th>
+                    <th>平</th>
+                    <th>下</th>
+                    <th>胜</th>
+                    <th>走</th>
+                    <th>输</th>
+                    <th>净</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">斯特城</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">曼切斯</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">特城</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--大小-->
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th class="thead-ball">球队</th>
+                    <th>赛</th>
+                    <th>大</th>
+                    <th>走</th>
+                    <th>小</th>
+                    <th>大%</th>
+                    <th>走%</th>
+                    <th>小%</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>60%</td>
+                    <td>8%</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>60%</td>
+                    <td>8%</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>60%</td>
+                    <td>8%</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>60%</td>
+                    <td>8%</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>60%</td>
+                    <td>8%</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>60%</td>
+                    <td>8%</td>
+                    <td>32</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--射手榜-->
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th>排名</th>
+                    <th class="thead-ball">球员</th>
+                    <th class="thead-ball">球队</th>
+                    <th>进球</th>
+                    <th>主进</th>
+                    <th>客进</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">哈利凯恩</td>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">哈利凯恩</td>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">哈利凯恩</td>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="ellipsis">哈利凯恩</td>
+                    <td class="ellipsis">曼切斯特城</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>2</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</content>
+</body>
+</html>
